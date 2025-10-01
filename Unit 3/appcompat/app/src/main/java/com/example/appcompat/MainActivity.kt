@@ -25,8 +25,7 @@ class MainActivity : AppCompatActivity() {
         rollButton.setOnClickListener {
             rollDice()
         }
-
-
+        rollDice()
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
@@ -60,3 +59,5 @@ class MainActivity : AppCompatActivity() {
 
     }
 }
+
+
