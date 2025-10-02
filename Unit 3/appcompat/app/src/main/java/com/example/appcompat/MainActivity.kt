@@ -19,6 +19,9 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        setSupportActionBar(binding.toolbar)
+        supportActionBar?.title = "Dice Roller"
+
 
         diceImage = findViewById(R.id.dice_image)
         val rollButton = findViewById<AppCompatButton>(R.id.button)
